@@ -14,11 +14,24 @@ The organization of this document probably seems strange. That's because it's pa
 
 [Link to the Lab 4 prompt](https://docs.google.com/document/d/1KX6_bKA8BOO0NdsUviVi0HCT-q9iTCtTYsS1dGNQJfU/edit?usp=sharing)
 
-### Cool animal fun facts {.tabset .tabset-fade}
+### Cool animal fun facts {.tabset .tabset-fade} 
+```{r, inlculde=F}
+#tabset makes tabs in knitted file. fade makes the tabs fadded (not needed)
 
-#### Great white sharks
+```
 
-![Great white at Seal Island, South Africa. Photographer: Chris Brunskill Ltd/Corbis News via Getty Images ](img/great_white.jpg)
+
+#### Great white sharks 
+```{r, inlcude=F}
+# the num of hastags increased by 1, which tells r that this is one of the tab headers. Anything below the heder (but before the next header), is info that goes towards this tab.
+
+# num of hastags for headers doesnt matter(?), so long as theyre consistent
+```
+
+![Great white at Seal Island, South Africa. Photographer: Chris Brunskill Ltd/Corbis News via Getty Images ](img/great_white.jpg) 
+```{r, include=F}
+# text in [] is the caption del photo
+```
 
 ##### Some great white shark facts (from [NatGeo Kids](https://www.natgeokids.com/uk/discover/animals/sea-life/great-white-sharks/)):
 
@@ -45,6 +58,15 @@ The organization of this document probably seems strange. That's because it's pa
 - Pika are of order *Lagomorpha* (which also includes rabbits)
 - Pika live in high altitude talus slopes
 - American pika are already disappearing from the Sierra Nevada
+
+
+#### Ringtail Cats
+![Photo: Courtesy of VA Zoo](img/ringtail_cat.jpg)
+
+```{r, inlcude=F}
+#img= file path; img is from the cloned file. 
+```
+
 
 ###
 
