@@ -1,0 +1,12 @@
+---
+title: "Interactive graph examples"
+author: "Amp"
+date: "October 22, 2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Practice interactive graphs and tables using built in datasets in 
