@@ -63,8 +63,23 @@ The organization of this document probably seems strange. That's because it's pa
 #### Ringtail Cats
 ![Photo: Courtesy of VA Zoo](img/ringtail_cat.jpg)
 
-```{r, inlcude=F}
+##### ringtail cats fun facts:
+
+- can rotate teir feet 180^o^ to climb better
+- closely related to racoons
+
+
+
+```{r}
 #img= file path; img is from the cloned file. 
+
+# in Git tab, the files that appear are the ones that have had changes made to them, so those are the ones availble for committing
+
+#alaways want to work on the most recent version of file, so click "pull" in git. IF the window says "already up to date", then tou have the mosr recent version. when working with other ppl, pull frequently. communicate with collaboratros so not working on the same script at the same time, bc there will be merge conoflicts
+
+#git shows most recent file in the repository, but it saves all uploaded versions if go to history
+
+#read mes in git follow same formating as r markdown
 ```
 
 

@@ -6,7 +6,48 @@ output: html_document
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(echo = F)
 ```
 
 Practice interactive graphs and tables using built in datasets in 
+
+```{r}
+#attach packages
+
+library(tidyverse)
+library(plotly)
+library(DT)
+library(htmltools)
+
+
+#change echo+t to echo=F in 1st r chunk so code checunks dont show up in knitted files in entire r markdown knitted file!
+
+```
+
+### A. Interactive grpahs of iris dimensions
+
+using famos iris dataset, which is prebuilt into R
+
+```{r, eval=F}
+
+iris_graph <- ggplot(data=iris, aes(x=Petal.Width, y=Petal.Length)) +
+  geom_point(aes(size=Sepal.Width, color=Species), alpha=0.5)
+
+iris_graph
+
+ggplotly(iris_graph) #plotly is used to create interactive grpahs/maps/etc
+
+#highlight text and ctrl+shift+c so r will hashtag or unhastag the code
+
+# in {r} add eval=F so r doesnt run this chunk of code 
+
+```
+
+## now make interactive function
+
+```{r}
+
+datatable(msleep)
+
+```
+
